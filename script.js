@@ -36,4 +36,9 @@ function evalString(expression) {
     }
   }
 }
+try {
+  console.log(evalString("1 + 2 * 3"));
+} catch (err) {
+  console.log(err);
+}
 
